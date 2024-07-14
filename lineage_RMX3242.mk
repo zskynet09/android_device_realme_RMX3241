@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020-2022 The CipherOS Project
+# Copyright (C) 2020-2022 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,14 +22,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit from RMX3242 device
 $(call inherit-product, device/realme/RMX3242/device.mk)
 
-# Inherit some common CipherOS stuff.
-$(call inherit-product, vendor/cipher/config/common_full_phone.mk)
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := cipher_RMX3242
+PRODUCT_NAME := lineage_RMX3242
 PRODUCT_DEVICE := RMX3242
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme Narzo 30 5G
